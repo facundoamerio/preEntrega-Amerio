@@ -1,18 +1,35 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Market</title>
 </head>
 <body> 
- <header> <img src="./assets/images/gatomeme.jpg" alt="gatito"> </header>
+  <section>
+    <h1>Hi! anything you like my friend?</h1>
+      <ul>
+         <li onclick="buy(potion)">Life potion</li>
+         <li onclick="buy(sword)">Sword</li>
+         <li onclick="buy(shield)">Shield</li>
+      </ul>
+  </section>
+  <section>
+    <h2>My inventory</h2>
+    <ul id="inventary">
 
- <section>
-    <button onclick="calculadora()">CALCULA O TE DISPARO</button>
-</section>
+    </ul>
+
+    <h2 id="gold">
+        gold: <span> </span>
+    </h2>
+    
 
 
-   <script src="calculadora.js"></script>    
+  </section>
+
+
+   <script src="jogo.js"></script>    
 </body>
 </html>

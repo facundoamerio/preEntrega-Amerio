@@ -1,0 +1,15 @@
+section {
+     border: 2px solid black;
+
+padding: 20px;
+
+}
+
+ul li{
+    cursor: pointer;
+    list-style: none;
+
+}
+ul li:hover{
+    border: 2px solid black;
+}
